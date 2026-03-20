@@ -1,0 +1,16 @@
+Return values
+The functions we have seen so far output their result.
+In some cases we do not need to output the result, but need to
+assign it to a variable to work with it in our program.
+
+In these cases, we need our function to return the result value,
+instead of outputting it.
+
+
+int sum(int x, int y){
+    return (x+y);
+}
+
+The return keyword stops the function from executing.
+If there are any statements after return, they won't run.
+Let's see how to use the returned value.
